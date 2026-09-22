@@ -739,8 +739,7 @@ footer .desktop-footer .app-down{
     display: flex;
     height: 50px;
     gap: 0.7em;
-}
-.desktop-footer .follow .socials ul li{
+    list-style: none;
 }
 .desktop-footer .protected-text{
     width: 100%;

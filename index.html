@@ -1,0 +1,526 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Smash Burgers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=shopping_cart"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="top-offer active" id="top-offer">
+      <span
+        >WANT FREE SMASHBURGER? JOIN SMASHREWARDS! Dismiss
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="29px"
+          viewBox="0 -960 960 960"
+          width="32px"
+          fill="black"
+        >
+          <path
+            d="m692-265-67-67 100-100H95v-94h631L625-626l67-67 214 214-214 214Z"
+          />
+        </svg>
+        <button href="#" id="top-offer-close-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="29px"
+            viewBox="0 -960 960 960"
+            width="29px"
+            fill="black"
+          >
+            <path
+              d="m249-183-66-66 231-231-231-231 66-66 231 231 231-231 66 66-231 231 231 231-66 66-231-231-231 231Z"
+            />
+          </svg>
+        </button>
+      </span>
+    </section>
+    <!-- DESKTOP SCREEN NAV GOES HERE -->
+    <header>
+      <div class="navbar">
+        <img src="./res/logo.png" alt="smash burger" />
+        <ul>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">SmashRewards</a></li>
+          <li><a href="#">Gift Cards</a></li>
+          <li><a href="#">Deals</a></li>
+          <li><a href="#">Catering</a></li>
+          <li><a href="#">Locations</a></li>
+        </ul>
+      </div>
+      <div class="signup-cont">
+        <button type="button">SIGN IN</button>
+        <!-- <a href="#">Shopping cart</a> -->
+        <!-- <span class="material-symbols-outlined shopping-cart">
+          shopping_cart
+        </span> -->
+        <img src="./res/icons/shopping_cart.svg" width="40" />
+        <!-- <svg class="shopping-cart" ></svg> -->
+        <!-- <svg
+          class="shopping-cart h-6 w-6 text-white hover:text-secondary-300 focus:text-secondary-300"
+          aria-hidden="true"
+        >
+          <use href="/_next/static/media/icons.bfc86d1d.svg#cart"></use>
+        </svg> -->
+      </div>
+    </header>
+
+    <!-- MOBILE SCREEN SIDE NAV GOES HERE -->
+    <aside></aside>
+
+    <section class="order-location-banner">
+      <!-- map indicator icon -->
+
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="25px"
+          viewBox="0 -960 960 960"
+          width="25px"
+          fill="#e3e3e3"
+        >
+          <path
+            d="M535.5-505q22.5-22 22.5-55t-22.5-55.5Q513-638 480-638t-55 22.5Q403-593 403-560t22 55q22 22 55 22t55.5-22ZM480-179q128-115 189.5-204T731-555q0-113-73-184.5T480-811q-105 0-178 71.5T229-555q0 83 63 171.5T480-179Zm0 124Q307-199 221-318.5T135-555q0-160 104.5-255.5T480-906q136 0 241 95.5T826-555q0 117-86.5 236.5T480-55Zm0-505Z"
+          />
+        </svg>
+        <span class="text"> CHOOSE A LOCATION TO ORDER</span>
+      </div>
+      <button>ORDER NOW</button>
+    </section>
+
+    <!-- SMASH REWARDS CTA MAIN SECTION -->
+    <main>
+      <div class="main-text">
+        <h2>ONE NEW,</h2>
+        <h2>ONE BACK,</h2>
+        <h1 class="headline">BOTH WORTH THE BITE</h1>
+
+        <div class="main-btns">
+          <a href="#" class="try-pickle">TRY A PICKLE STACK</a>
+          <a href="#" class="try-smocked-brisk">TRY SMOCKED BRISKET BACON</a>
+        </div>
+        <img
+          class="mobile-pic"
+          src="./res/Home_Page_Banner_Q3_LTO_1000x715_V8_58a419da32.avif"
+        />
+      </div>
+      <div class="img-cont">
+        <img src="./res/Home_Page_Banner_Q3_LTO_1000x715_V8_58a419da32.avif" />
+      </div>
+      <a href="#" class="feedback">Feedback</a>
+      <!-- <div class="feedback">
+      </div> -->
+    </main>
+
+    <article class="sign-up-cta">
+      <div class="container">
+        <div class="img-cont">
+          <img src="./res/section2img.avif" />
+        </div>
+        <div class="text">
+          <h2>TURN CRAVINGS INTO REWARDS</h2>
+          <p>
+            Join SmashRewards and unlock $5 off your first $15+ order-plus earn
+            10 points for every dollar spent
+          </p>
+          <p>Sign up, dig in, and save. It's that easy</p>
+          <div class="buttons">
+            <a href="sign-up">SIGN UP</a>
+            <a href="learn-more">LEARN MORE</a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <section class="menu">
+      <div class="heading">
+        <h1>MENU</h1>
+        <span>*Menu options may vary by location</span>
+      </div>
+      <ul>
+        <li>
+          <div class="card">
+            <div class="img-cont">
+              <img src="./res/menu/img1.avif" />
+            </div>
+            <a href="#">SMASH®EVERYDAY VALUE</a>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <div class="img-cont">
+              <img src="./res/menu/img2.avif" />
+            </div>
+            <a href="#">SMASHBURGERS</a>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <div class="img-cont">
+              <img src="./res/menu/img3.avif" />
+            </div>
+            <a href="#">BIGDOGS</a>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <div class="img-cont">
+              <img src="./res/menu/img4.avif" />
+            </div>
+            <a href="#">CHICKEN</a>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <div class="img-cont">
+              <img src="./res/menu/img5.avif" />
+            </div>
+            <a href="#">BLACK BEAN</a>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <div class="img-cont">
+              <img src="./res/menu/img6.avif" />
+            </div>
+            <a href="#">SIDES</a>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <div class="img-cont">
+              <img src="./res/menu/img7.avif" />
+            </div>
+            <a href="#">SALAD</a>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <div class="img-cont">
+              <img src="./res/menu/img8.avif" />
+            </div>
+            <a href="#">KIDS MEALS</a>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <div class="img-cont">
+              <img src="./res/menu/img9.avif" />
+            </div>
+            <a href="#">HAND-SPUN SHAKES</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <article class="about">
+      <div class="img-cont">
+        <img src="./res/section4.avif" alt="smash-burgers-employee" />
+      </div>
+      <div class="text">
+        <h1>WE TAKE PRIDE IN OUR CRAFT</h1>
+        <div class="content">
+          <p>
+            Our made-to-order burgers are built differently. Using our signature
+            proprietary burger smasher, our culinary masters utilize a special
+            smashing technique to create a mouthwatering caramelized, crispy
+            sear that seals in all the juicy goodness within.
+          </p>
+          <p>
+            Our passion for culinary innovation drives us to continuously
+            experiment with thousands of ingredient combinations until we
+            achieve the perfect recipe. In a fast-changing culinary landscape,
+            we remain committed to pushing boundaries while using only the
+            finest, high-quality ingredients. From our custom burger spice blend
+            to every carefully selected topping, each ingredient is chosen for
+            maximum flavor impact and a distinctive, bold taste in every bite.
+          </p>
+          <a href="#">ABOUT OUR FOOD</a>
+        </div>
+      </div>
+    </article>
+
+    <section class="feature-cat">
+      <ul>
+        <li>
+          <div class="card">
+            <div class="img-cont">
+              <img src="./res/section5/img1.avif" alt="Gift Cards" />
+            </div>
+            <div class="text">
+              <h3>GIFT CARDS</h3>
+              <p>
+                Purchase virtuall gift cards! Available in $15-$250, choose the
+                gift that fits the occasion.
+              </p>
+              <a href="#">BUY GIFT CARDS</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <div class="img-cont">
+              <img src="./res/section5/img2.avif" alt="Join SmashRewards" />
+            </div>
+            <div class="text">
+              <h3>JOIN SMASHREWARDS</h3>
+              <p>
+                Order Smashburger fast, save your favourite orders, earn points,
+                and get free food. It's really that simple!
+              </p>
+              <a href="#">JOIN SMASHREWARDS</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <div class="img-cont">
+              <img src="./res/section5/img3.avif" alt="Catering" />
+            </div>
+            <div class="text">
+              <h3>CATERING</h3>
+              <p>Make your next event a Smash!</p>
+              <a href="#">CATERING</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <div class="img-cont">
+              <img src="./res/section5/img4.avif" alt="We Ranked #1" />
+            </div>
+            <div class="text">
+              <h3>WE RANKED #1</h3>
+              <p>
+                Eat This Not That, ranked us the #1 Restaurant with the best
+                Smashburgers!
+              </p>
+              <a href="#">READ ALL ABOUT US</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <!-- <p>I NOVA DO AM YET</p>
+      <p>DE NO DE PAY ME FOR THIS</p> -->
+      <section class="desktop-footer">
+        <div class="top">
+          <div class="img-cont">
+            <img src="res/logo.png" />
+          </div>
+          <!-- <div class="top-links"> -->
+          <div class="links">
+            <h2>HELPFUL LINKS</h2>
+            <a href="#">About Us</a>
+            <a href="#">Our Food</a>
+            <a href="#">Nutrition</a>
+            <a href="#">Catering</a>
+            <a href="#">News</a>
+            <a href="#">Delivery</a>
+            <a href="#">Rewards</a>
+            <a href="#">Gift Cards</a>
+            <a href="#">Locations</a>
+          </div>
+          <div class="inquiries">
+            <h2>INQUIRIES</h2>
+            <a href="#">Careers</a>
+            <a href="#">Deals</a>
+            <a href="#">Franchising</a>
+            <a href="#">FAQ</a>
+            <a href="#">Smashburger vertified Angus Beef</a>
+            <a href="#">Supply Chain</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <div class="searches">
+            <h2>SEARCHES</h2>
+            <a href="#">Veggie Burgers</a>
+            <a href="#">What Is A Smash Burger?</a>
+            <a href="#">Smash Burger Recipe</a>
+            <a href="#">Local Burger Places</a>
+            <a href="#">Burgers & Fries</a>
+            <a href="#">Burgers & Shakes</a>
+            <a href="#">Double Smashburgers</a>
+            <a href="#">Black Bean Burger</a>
+            <a href="#">Smash® Everyday Value Menu</a>
+          </div>
+          <!-- </div> -->
+          <div class="app-down">
+            <h2>DOWNLOAD OUR APP</h2>
+            <div class="img-cont">
+              <img src="./res/icons/google-play-badge.d44bfde8.svg" width="50%"/>
+              
+                <img src="./res/icons/app-store-badge.a41d3f7c.svg"/>
+                <p>
+                  Apple and Apple logo are trademarks of Apple inc. registered in
+                  the U.S. and other countries. Apple Store is a service mark of
+                  Apple Inc. registered in the U.S. and other countries. Google Play
+                  and the Google Play logo are trademarks of Google Inc.
+                </p>
+              </div>
+          </div>
+          <div class="follow">
+            <h2>FOLLOW US</h2>
+            <nav class="socials">
+              <ul>
+                <li><a href="#">
+                  <img src="res/icons/close.svg"/>
+                </a></li>
+                <li><a href="#">
+                  <img src="res/icons/close.svg"/>
+                </a></li>
+              </ul>
+            </nav>
+            </div>
+            <div class="protected-text">
+              <p>
+                This site is protected by reCAPTCHA and the Google
+                <a href="#">Privacy Policy</a> and
+                <a href="#">Terms of Service</a> apply.
+              </p>
+            </div>
+          </div>
+          <div class="container">
+
+            <div class="line"></div>
+            <div class="bottom">
+              <div class="rights">
+                ©2026 Smashburger IP Holder LLC. All rights reserved.
+              </div>
+              <div class="footer-end">
+                <div class="text">
+                  <a href="#">Accessibility</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Private Notice</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Do Not Sell or Share My Personal Information</a>
+                <a href="#">Job Applicant Privacy Notice</a>
+              </div>
+              <div class="cookie">
+                <img src="./res/icons/cookiepref.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section class="mobile-footer">
+        <div class="links cat">
+          <h2 class="selector-head" id="selector-head1">HELPFUL LINKS</h2>
+          <ul class="link-list help active" id="list1">
+            <li><a href="#" class="selector-option">About Us</a></li>
+            <li><a href="#" class="selector-option">Our Food</a></li>
+            <li><a href="#" class="selector-option">Nutrition</a></li>
+            <li><a href="#" class="selector-option">Catering</a></li>
+            <li><a href="#" class="selector-option">News</a></li>
+            <li><a href="#" class="selector-option">Delivery</a></li>
+            <li><a href="#" class="selector-option">Rewards</a></li>
+            <li><a href="#" class="selector-option">Gift Cards</a></li>
+            <li><a href="#" class="selector-option">Locations</a></li>
+          </ul>
+        </div>
+        <div class="links cat">
+          <h2 class="selector-head" id="selector-head2">INQUIRIES</h2>
+          <ul class="link-list inquire active" id="list2">
+            <li><a href="#" class="selector-option">Careers</a></li>
+            <li><a href="#" class="selector-option">Deals</a></li>
+            <li><a href="#" class="selector-option">Franchising</a></li>
+            <li><a href="#" class="selector-option">FAQ</a></li>
+            <li><a href="#" class="selector-option">Smashburger Certified Angus Beef</a></li>
+            <li><a href="#" class="selector-option">Supply Chain</a></li>
+            <li><a href="#" class="selector-option">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="links cat">
+          <h2 class="selector-head" id="selector-head3">POPULUAR SEARCHES</h2>
+          <ul class="link-list search active" id="list3">
+            <li><a href="#" class="selector-option">Veggie Burgers</a></li>
+            <li><a href="#" class="selector-option">What Is A Smash Burger</a></li>
+            <li><a href="#" class="selector-option">Smash Burger Recipe</a></li>
+            <li><a href="#" class="selector-option">Local Burger Places</a></li>
+            <li><a href="#" class="selector-option">Burger & Fries</a></li>
+            <li><a href="#" class="selector-option">Burgers & Shakes</a></li>
+            <li><a href="#" class="selector-option">Double SmashBurgers</a></li>
+            <li><a href="#" class="selector-option">Black Bean Burger</a></li>
+            <li><a href="#" class="selector-option">Smash® Everyday Value Menu</a></li>
+          </ul>
+        </div>
+        <div class="app-down">
+          <h2>DOWNLOAD OUR APP</h2>
+          <div class="img-container">
+            <div class="img-cont">
+              
+              <img src="./res/icons/google-play-badge.d44bfde8.svg"/>
+            </div>
+            <div class="img-cont">
+
+              <img src="./res/icons/app-store-badge.a41d3f7c.svg"/>
+            </div>
+          </div>
+          <p>Apple and Apple logo are trademarks of Apple inc. registered in the U.S. and other countries. Apple Store is a service
+             mark of Apple Inc. registered in the U.S. and other countries. Google Play and the Google Play logo are trademarks of Google Inc.</p>
+        </div>
+        <div class="follow">
+          <h2>FOLLOW US</h2>
+           <nav class="socials">
+              <ul>
+                <li><a href="#">
+                  <img src="res/icons/close.svg"/>
+                </a></li>
+                <li><a href="#">
+                  <img src="res/icons/close.svg"/>
+                </a></li>
+              </ul>
+            </nav>
+        </div>
+                    <div class="protected-text">
+              <p>
+                This site is protected by reCAPTCHA and the Google
+                <a href="#">Privacy Policy</a> and
+                <a href="#">Terms of Service</a> apply.
+              </p>
+            </div>
+                      <div class="container">
+
+            <div class="line"></div>
+            <div class="bottom">
+              <div class="rights">
+                ©2026 Smashburger IP Holder LLC. All rights reserved.
+              </div>
+              <div class="footer-end">
+                <div class="text">
+                  <a href="#">Accessibility</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Private Notice</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Do Not Sell or Share My Personal Information</a>
+                <a href="#">Job Applicant Privacy Notice</a>
+              </div>
+              <div class="cookie">
+                <img src="./res/icons/cookiepref.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

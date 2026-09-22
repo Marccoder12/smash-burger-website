@@ -1055,6 +1055,7 @@ footer .mobile-footer{
     width: 100%;
     padding: 1em;
     font-size: clamp(1em,2vw, 2em);
+    font-family: 'Public Sans', sans-serif;
 }
 .link-list.active{
     display: flex;

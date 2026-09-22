@@ -459,7 +459,7 @@ main .feedback {
     /* flex: 1 1 3; */
     /* box-sizing: border-box; */
     width: 350px;
-    height: 350px;
+    height: 300px;
 }
 
 .menu ul li .card {
@@ -470,6 +470,7 @@ main .feedback {
     align-items: center;
     justify-content: space-between;
     position: relative;
+    gap: 0.1em;
 }
 
 .menu ul li .card .img-cont {
@@ -478,7 +479,7 @@ main .feedback {
 
 .menu ul li .card .img-cont img {
     width: 100%;
-    margin-bottom: 3em;
+    margin-bottom: 0.2em;
 }
 
 .menu ul li .card a {
@@ -828,6 +829,10 @@ footer .desktop-footer .bottom .footer-end .cookie img{
 footer .desktop-footer .bottom a{
     color: white;
     font-size: clamp(0.03em, 1vw,0.7em);
+}
+
+.order-button{
+    display: none;
 }
 /* footer p{
     color: white;

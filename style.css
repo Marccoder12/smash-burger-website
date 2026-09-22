@@ -1075,6 +1075,7 @@ footer .mobile-footer{
     font-family: 'built', sans-serif;
     margin-bottom: 0.3em;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 .mobile-footer .selector-option{
     font-family: 'Public Sans', sans-serif;
@@ -1137,7 +1138,8 @@ footer .mobile-footer{
  text-align: center;
  list-style: none;
 }
-.mobile-footer .follow .socials{
+.mobile-footer a{
+    font-family: 'Public Sans', sans-serif;
 }
 .mobile-footer .follow .socials ul{
     display: flex;

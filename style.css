@@ -1,42 +1,24 @@
-/* Target the whole page (:root) or a specific scrollable container */
-:root {
-  /* 1. Modern Standard Properties (Firefox, Chrome, Edge, Safari) */
-  scrollbar-width: auto; /* Options: auto, thin, none */
-  /* scrollbar-color: #d67419 #70440a;  */
-    scrollbar-arrow-color:transparent;
-    /* scrollbar-color: #af3c0e #1d1d1d; */
-/* Target the whole page or a specific container */
-  /* For Firefox: Firefox hides arrows by default when using 'thin' */
-  scrollbar-width: 70px; 
-}
-
 ::-webkit-scrollbar-button{
-    color: blue;
-    background-color: blue;
     display: none;
 }
 
-/* 1. Change the Width of the Scrollbar */
 ::-webkit-scrollbar {
-  width: 12px;     /* Set your desired width here (e.g., 8px, 10px, 16px) */
-  height: 8px;    /* Sets height for horizontal scrollbars */
+  width: 12px;
+  height: 8px;
 }
 
-/* 2. Completely Hide the Up and Down Arrows */
-/* 2. FORCE the buttons/arrows to disappear */
-/* 3. Style the Track (Background) */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background:  #242424;
+ 
 }
-
-/* 4. Style the Thumb (Draggable handle) */
 ::-webkit-scrollbar-thumb {
-  background: #888888;
-  border-radius: 4px; /* Gives the thumb rounded edges */
+    transition: 0.3s;
+  background: #b9b9b9;
+  border-radius: 2px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
+    transition: 0.3s;
   background: #555555;
 }
 
@@ -755,6 +737,10 @@ footer .desktop-footer .app-down{
 }
 .desktop-footer .follow .socials ul{
     display: flex;
+    height: 50px;
+    gap: 0.7em;
+}
+.desktop-footer .follow .socials ul li{
 }
 .desktop-footer .protected-text{
     width: 100%;
@@ -1141,11 +1127,29 @@ footer .mobile-footer{
 .mobile-footer a{
     font-family: 'Public Sans', sans-serif;
 }
+.mobile-footer .follow .socials{
+    
+}
 .mobile-footer .follow .socials ul{
     display: flex;
+    width: 100%;
     padding: 0.5em;
     justify-content: center;
     list-style: none;
+    height: 100%;
+    gap: 1em;
+}
+.mobile-footer .follow .socials ul li{
+    height: 100%;
+    width: 100%;
+    
+}
+.mobile-footer .follow .socials ul li a{
+    display: inline-block;
+}
+.mobile-footer .follow .socials ul li a img{
+    display: inline-block;
+    width: 50%;
 }
 .mobile-footer .protected-text{
     text-align: center;

@@ -1,3 +1,45 @@
+/* Target the whole page (:root) or a specific scrollable container */
+:root {
+  /* 1. Modern Standard Properties (Firefox, Chrome, Edge, Safari) */
+  scrollbar-width: auto; /* Options: auto, thin, none */
+  /* scrollbar-color: #d67419 #70440a;  */
+    scrollbar-arrow-color:transparent;
+    /* scrollbar-color: #af3c0e #1d1d1d; */
+/* Target the whole page or a specific container */
+  /* For Firefox: Firefox hides arrows by default when using 'thin' */
+  scrollbar-width: 70px; 
+}
+
+::-webkit-scrollbar-button{
+    color: blue;
+    background-color: blue;
+    display: none;
+}
+
+/* 1. Change the Width of the Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;     /* Set your desired width here (e.g., 8px, 10px, 16px) */
+  height: 8px;    /* Sets height for horizontal scrollbars */
+}
+
+/* 2. Completely Hide the Up and Down Arrows */
+/* 2. FORCE the buttons/arrows to disappear */
+/* 3. Style the Track (Background) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* 4. Style the Thumb (Draggable handle) */
+::-webkit-scrollbar-thumb {
+  background: #888888;
+  border-radius: 4px; /* Gives the thumb rounded edges */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
 @font-face {
     font-family: 'built';
     src: url('./res/fonts/built_titling/built\ titling\ rg.otf');
@@ -5,11 +47,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'impact';
-    src: url('./res/fonts/impact/Impact.ttf');
-    font-style: normal;
-}
 @font-face {
     font-family: 'impact';
     src: url('./res/fonts/impact/Impact.ttf');
@@ -814,6 +851,38 @@ footer :nth-child(1){
 
 @media (max-width: 800px) {
 
+    .order-button{
+        opacity: 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 0.4em;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #4b4b4b;
+        transition: 0.3s;
+        transform: translateY(50px);
+    }
+    .order-button.is-visible{
+        transition: 0.3s;
+         transform: translateY(0);
+        opacity: 1;
+    }
+    
+    .order-button a{
+        text-align: center;
+        font-size: 1.5em;
+        width: 90%;
+        padding: 0.5em;
+        display: inline-block;
+        border-radius: 7px;
+        background-color: #D2232A;
+        color: white;
+font-family: 'Public Sans', sans-serif;
+        text-decoration: none;
+    }
 
     header .navbar ul {
         display: none;

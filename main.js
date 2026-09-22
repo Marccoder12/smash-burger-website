@@ -1,6 +1,22 @@
 var topOfferCloseBtn = document.getElementById("top-offer-close-btn");
 const topOffer = document.getElementById("top-offer");
 
+
+const orderButon = document.getElementById("order-button");
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 500 && window.scrollY < 5500) { // If scrolled past 500px
+    console.log("It too much")
+    orderButon.classList.add('is-visible');
+    console.log(JSON.stringify(orderButon.classList))
+    }else{
+      orderButon.classList.remove('is-visible'); // Hides it again if they scroll back up
+  }
+});
+
+
+
+
 //footer
 var selectorHead1 = document.getElementById("selector-head1");
 var selectorHead2 = document.getElementById("selector-head2");
